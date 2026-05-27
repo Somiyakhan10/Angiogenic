@@ -154,7 +154,7 @@ This creates a **balance point** where vessels naturally stop.
 
 
 
-Key Findings
+# Key Findings
 Band Formation is Emergent - Vessels self-organize without explicit programming
 
 Balance Point Determines Band Location - Vessel front exactly matches theoretical balance point (Difference = 0.00 mm)
@@ -162,8 +162,9 @@ Balance Point Determines Band Location - Vessel front exactly matches theoretica
 Cell Survival Depends on Vascularized Zone - Cells at 5 mm receive no oxygen
 
 
-Conclusion
-Summary
+
+# Conclusion
+
 This computational study successfully demonstrates:
 
 Competing VEGF and inhibitor gradients guide vessels to form a narrow, discrete band at the balance point.
