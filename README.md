@@ -15,13 +15,9 @@
 4. [Mathematical Model](#mathematical-model)
 5. [Methodology](#methodology)
 6. [Dashboard Screenshots](#dashboard-screenshots)
-7. [Code Output Results](#code-output-results)
-8. [Generated Plots](#generated-plots)
-9. [Quantitative Results](#quantitative-results)
-10. [Discussion](#discussion)
-11. [Conclusion](#conclusion)
-12. [Live Demo](#live-demo)
-13. [Quick Start](#quick-start)
+07. [Discussion](#discussion)
+09. [Conclusion](#conclusion)
+
 
 ---
 
@@ -130,61 +126,34 @@ This creates a **balance point** where vessels naturally stop.
 
 ---
 
-## Dashboard Screenshots
-
-### Full Dashboard View
-
-<img width="1441" height="644" alt="image" src="https://github.com/user-attachments/assets/f8bc072b-0a6d-4d62-b06a-29cf71681f66" />
-
-
-### Sidebar Controls
-
-<img width="1440" height="521" alt="image" src="https://github.com/user-attachments/assets/4d0f64ef-b0a1-43b7-84c3-617fbaddc260" />
-
-
-### Metrics Display
-
-![Metrics](images/metrics.png)
-
----
-
 ## Code Output Results
 
-### Terminal Output
+### Plot 1: Competing Pro- and Anti-Angiogenic Signals
+<img width="520" height="351" alt="image" src="https://github.com/user-attachments/assets/4b864743-fd11-4d5e-98f8-fcefc3684f00" />
 
-```text
-# Computational Model of Competing Angiogenic Gradients
 
-## Plot 1: Competing Pro- and Anti-Angiogenic Signals
 
-- Signal Concentration (a.u.)
-- Position along scaffold (mm)
-- VEGF (Pro-angiogenic)
-- Inhibitor (Anti-angiogenic)
-- Balance point = 2.31 mm
+### Plot 2: Net Angiogenic Signal
 
-## Plot 2: Net Angiogenic Signal
+<img width="525" height="351" alt="image" src="https://github.com/user-attachments/assets/c86110fe-e319-4778-8440-c0792d56bb29" />
 
-- Net Signal (VEGF - Inhibitor)
-- Position along scaffold (mm)
-- Growth Zone (Net positive)
-- Suppression Zone (Net negative)
-- Balance point = 2.31 mm
 
-## Plot 3: Vessel Front Progression Over Time
 
-- Vessel Front Position (mm)
-- Time (days)
-- Balance point = 2.31 mm
+### Plot 3: Vessel Front Progression Over Time
 
-## Plot 4: Final Vessel Distribution - Narrow Band Formation
+<img width="521" height="372" alt="image" src="https://github.com/user-attachments/assets/10abde48-e9b8-47b2-b4f2-0d7109854721" />
 
-- Vessel Density
-- Balance point = 2.31 mm
-- Vessel front = 2.31 mm
-- Vascularized zone = 2.31 mm
 
 ---
+
+## Dashboard results
+
+### Dashbaord overivew
+
+<img width="1829" height="673" alt="image" src="https://github.com/user-attachments/assets/920cc99a-a44c-4153-9ac4-a2c8c1ff341c" />
+
+
+
 
 Key Findings
 Band Formation is Emergent - Vessels self-organize without explicit programming
