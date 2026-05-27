@@ -15,8 +15,7 @@
 4. [Mathematical Model](#mathematical-model)
 5. [Methodology](#methodology)
 6. [Dashboard Screenshots](#dashboard-screenshots)
-07. [Discussion](#discussion)
-09. [Conclusion](#conclusion)
+7. [Conclusion](#conclusion)
 
 
 ---
@@ -161,3 +160,14 @@ Band Formation is Emergent - Vessels self-organize without explicit programming
 Balance Point Determines Band Location - Vessel front exactly matches theoretical balance point (Difference = 0.00 mm)
 
 Cell Survival Depends on Vascularized Zone - Cells at 5 mm receive no oxygen
+
+
+Conclusion
+Summary
+This computational study successfully demonstrates:
+
+Competing VEGF and inhibitor gradients guide vessels to form a narrow, discrete band at the balance point.
+
+The vessel front exactly matches the theoretical balance point (2.31 mm), validating the mathematical model.
+
+Cells beyond the balance point receive no oxygen and cannot survive.
