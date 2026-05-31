@@ -149,15 +149,15 @@ Validation that stochastic tip-cell behavior produces realistic network morpholo
 
 ## References
 
-Carmeliet, P. & Jain, R.K. (2011). Molecular mechanisms and clinical applications of angiogenesis. Nature, 473(7347), 298-307.
+Fan, N., Bull, J.A. & Byrne, H.M. (2026). Exploring the relationship between vascular remodelling and tumour growth using agent-based modelling. PLoS Computational Biology, 22(5), e1012967.
 
-Peirce, S.M., Van Gieson, E.J. & Skalak, T.C. (2004). Multicellular simulation predicts microvascular patterning and in silico tissue assembly. The FASEB Journal, 18(6), 731-733.
+Giverso, C., Grappein, D. & Scialò, S. (2026). Modeling tumor growth with variable mass and angiogenesis-driven perfusion through a 3D-1D coupled framework. arXiv, 2603.29615.
 
-Scianna, M., Bell, C.G. & Preziosi, L. (2013). A review of mathematical models for the formation of vascular networks. Journal of Theoretical Biology, 333, 174-209.
+Wang, L.S. et al. (2025). A hybrid PDE-ABM model for angiogenesis and tumour microenvironment with application to resistance in cancer treatment. arXiv, 2505.22580.
 
-Bentley, K. et al. (2008). Tipping the balance: robustness of tip cell selection, migration and fusion in angiogenesis. PLoS Computational Biology, 4(12), e1000240.
+Wang, L.S. et al. (2025). Analysis and Mean-Field Limit of a Hybrid PDE-ABM Modeling Angiogenesis-Regulated Resistance Evolution. Mathematics, 13(17), 2898.
 
-References will be added progressively as the project develops.
+Nasello, G. et al. (2025). An in silico study reveals how architectural and mechanical cues jointly regulate angiogenesis and bone regeneration in 3D printed scaffolds. Computers in Biology and Medicine, 185, 109825.
 
 ## License
 
