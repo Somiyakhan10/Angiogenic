@@ -147,20 +147,6 @@ Visual models demonstrating emergent branching from local chemotactic rules
 
 Validation that stochastic tip-cell behavior produces realistic network morphology
 
-## Collaboration
-
-This project is developed as part of ongoing research in computational biomaterials and vascularized tissue engineering. Contributions in the following areas are welcome:
-
-Agent-based modeling and parameter optimization
-
-Oxygen transport and hypoxia feedback refinement
-
-Extension to 3D simulation domains
-
-Validation against in vivo angiogenesis assays
-
-Integration with osteogenesis models for bone tissue engineering
-
 ## References
 
 Carmeliet, P. & Jain, R.K. (2011). Molecular mechanisms and clinical applications of angiogenesis. Nature, 473(7347), 298-307.
