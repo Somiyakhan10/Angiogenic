@@ -1,12 +1,12 @@
-<div align="center">
-    <a href="https://huggingface.co/spaces/somiya-khan01/Angiogenesis_Simulation">
-        <img src="https://img.shields.io/badge/🔬-Watch_Live_Demo-3b82f6?style=for-the-badge&logo=huggingface&logoColor=white" alt="Watch Live Demo">
-    </a>
-</div>
 
----
 
 # Agent-Based Angiogenesis Simulation: Competing Chemotactic Gradients Guide Emergent Vascular Network Formation
+
+<div align="center">
+    <a href="https://huggingface.co/spaces/somiya-khan01/Angiogenesis_Simulation">
+        <img src="https://img.shields.io/badge/Live_Demo-3b82f6?style=for-the-badge&logo=huggingface&logoColor=white" alt="Watch Live Demo">
+    </a>
+</div>
 
 ## Overview
 
