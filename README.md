@@ -1,8 +1,55 @@
 # Agent-Based Angiogenesis Simulation: Competing Chemotactic Gradients Guide Emergent Vascular Network Formation
 
+<div align="center">
+    <h1>Agent-Based Angiogenesis Simulation</h1>
+    
+    <a href="https://huggingface.co/spaces/somiya-khan01/Angiogenesis_Simulation" target="_blank">
+        <button style="background-color: #3b82f6; color: white; font-size: 16px; font-weight: bold; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-family: sans-serif;">
+            Launch Live Demo
+        </button>    </a>
+</div>
+
+---
+
 ## Overview
 
 This project implements an agent-based computational model of angiogenesis — the formation of new blood vessels from pre-existing vasculature. The model specifically investigates how competing pro-angiogenic (VEGF) and anti-angiogenic (inhibitor) gradients regulate tip cell migration, branching, anastomosis, and network arrest in a scaffold-like microenvironment.
+
+
+## Live Dashboard Preview
+
+### Dashboard Home - Field Visualization
+
+<div align="center">
+   <img width="1495" height="815" alt="image" src="https://github.com/user-attachments/assets/c5b3e41e-7494-43b0-be3a-4bff364b94ea" />
+
+    <p><em>Figure 1: Field Visualization tab showing VEGF, Inhibitor, Net Signal, Oxygen, and Effective VEGF fields</em></p>
+</div>
+
+### Network Explorer - Interactive Vessel Visualization
+
+<div align="center">
+<img width="1483" height="829" alt="image" src="https://github.com/user-attachments/assets/38712b83-bfa7-4437-8982-5af54b5c8e71" />
+
+    <p><em>Figure 2: Network Explorer tab with generation-based color coding (Gen0 purple to Gen4+ green), anastomosis markers (cyan circles), and seed points (yellow squares)</em></p>
+</div>
+
+### Time Lapse - Network Evolution Over Time
+
+<div align="center">
+    <img width="1462" height="832" alt="image" src="https://github.com/user-attachments/assets/f4556244-9670-4665-8a19-a7d506b9a9a7" />
+
+    <p><em>Figure 3: Time Lapse tab showing network progression from step 30 to step 300</em></p>
+</div>
+
+### Metrics Summary - Quantitative Analysis
+
+<div align="center">
+    <img width="1432" height="758" alt="image" src="https://github.com/user-attachments/assets/c1ba1084-6ba0-4808-af6a-2d7d41e797c0" />
+
+    <p><em>Figure 4: Metrics Summary tab displaying network length, branch generations, anastomosis count, and growth trends</em></p>
+</div>
+
 
 ## Hypothesis
 
