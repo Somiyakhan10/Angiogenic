@@ -3,11 +3,9 @@
 <div align="center">
     <h1>Agent-Based Angiogenesis Simulation</h1>
     
-    <p align="center">
-        <a href="https://huggingface.co/spaces/somiya-khan01/Angiogenesis_Simulation" style="background-color: #3b82f6; color: white; font-size: 16px; font-weight: bold; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-block; font-family: sans-serif;">
-             Launch Live Demo
-        </a>
-    </p>
+    <a href="https://huggingface.co/spaces/somiya-khan01/Angiogenesis_Simulation">
+        <img src="https://img.shields.io/badge/Launch%20Live%20Demo-3b82f6?style=for-the-badge&logo=huggingface&logoColor=white" alt="Launch Live Demo">
+    </a>
 </div>
 
 ## Overview
