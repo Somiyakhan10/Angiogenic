@@ -4,22 +4,6 @@
 
 This project implements an agent-based computational model of angiogenesis — the formation of new blood vessels from pre-existing vasculature. The model specifically investigates how competing pro-angiogenic (VEGF) and anti-angiogenic (inhibitor) gradients regulate tip cell migration, branching, anastomosis, and network arrest in a scaffold-like microenvironment.
 
-Recent experimental evidence suggests that vascular network patterning is not solely determined by absolute VEGF concentration but critically depends on the balance between multiple competing signals. This project computationally tests the hypothesis that local tip-cell decision rules, governed by chemotaxis and hypoxia feedback, are sufficient to produce globally organized, directional, branching networks that arrest at predictable spatial boundaries.
-
-This project aims to computationally explore these mechanisms using agent-based modeling, gradient field simulation, and network analysis.
-
-## Key Biological Questions
-
-What is the minimal set of local rules required to reproduce experimentally observed angiogenesis?
-
-How do competing VEGF and inhibitor gradients guide tip cell migration and network arrest?
-
-What role does hypoxia feedback play in modulating VEGF sensitivity and branching probability?
-
-Why is stochasticity essential for realistic branching morphogenesis?
-
-How do vessel fusion (anastomosis) and tip-stalk competition control network density?
-
 ## Hypothesis
 
 Angiogenic network patterning is not solely determined by VEGF concentration alone, but critically depends on the balance between pro-angiogenic and anti-angiogenic signals, with hypoxia feedback providing spatial regulation and stochastic tip-cell behavior generating realistic branching morphology.
@@ -33,10 +17,6 @@ Generate realistic VEGF and inhibitor gradient fields on a 2D scaffold domain
 Incorporate oxygen-dependent hypoxia feedback that upregulates effective VEGF response
 
 Simulate network evolution from bone-edge seed points to inhibitor-dominated arrest zone
-
-Quantify emergent network properties: total length, branch generation, anastomosis frequency, arrest location
-
-Validate emergent patterning against qualitative experimental observations from literature
 
 ## Methodology
 
@@ -75,18 +55,6 @@ Network visualization with generation-based color mapping
 | Maximum branch generation | 4 | Prevents unbounded branching |
 
 ## Results
-
-### Quantitative Summary
-
-| Metric | Result |
-| :--- | :--- |
-| Network arrest position | 8.2 mm from bone edge |
-| Maximum branch generation | Generation 4+ |
-| Total network length | 126 mm |
-| Tip cells seeded | 12 |
-| Vessel segments | 24 |
-| Anastomosis events | Observed |
-| Simulation steps | 300 |
 
 ### Final Vascular Network
 
@@ -131,21 +99,22 @@ Panel E (Effective VEGF): Hypoxia feedback amplifies VEGF response in low-oxygen
 
 Panel F (Final Network): Emergent vascular architecture overlaid on net signal field.
 
+### Quantitative Summary
+
+| Metric | Result |
+| :--- | :--- |
+| Network arrest position | 8.2 mm from bone edge |
+| Maximum branch generation | Generation 4+ |
+| Total network length | 126 mm |
+| Tip cells seeded | 12 |
+| Vessel segments | 24 |
+| Anastomosis events | Observed |
+| Simulation steps | 300 |
+
 ### Hypothesis Validation
 
 The simulation successfully validates the central hypothesis: competing VEGF and inhibitor gradients produce structured, directional, branching vascular networks that arrest near the theoretical balance point. This emergent patterning arises solely from local tip-cell rules without any global coordinate system. All qualitative features observed in experimental angiogenesis (directional sprouting, density-dependent branching, vessel fusion, inhibitor-mediated arrest) are reproduced by the model.
 
-## Expected Outcomes
-
-A quantitative understanding of how competing gradients guide vascular network arrest
-
-Identification of the balance point (VEGF = inhibitor) as a natural network boundary
-
-A reproducible, open-source agent-based pipeline for angiogenesis simulation
-
-Visual models demonstrating emergent branching from local chemotactic rules
-
-Validation that stochastic tip-cell behavior produces realistic network morphology
 
 ## References
 
