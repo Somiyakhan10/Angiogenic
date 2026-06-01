@@ -3,13 +3,12 @@
 <div align="center">
     <h1>Agent-Based Angiogenesis Simulation</h1>
     
-    <a href="https://huggingface.co/spaces/somiya-khan01/Angiogenesis_Simulation" target="_blank">
-        <button style="background-color: #3b82f6; color: white; font-size: 16px; font-weight: bold; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-family: sans-serif;">
-            Launch Live Demo
-        </button>    </a>
+    <p align="center">
+        <a href="https://huggingface.co/spaces/somiya-khan01/Angiogenesis_Simulation" style="background-color: #3b82f6; color: white; font-size: 16px; font-weight: bold; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-block; font-family: sans-serif;">
+             Launch Live Demo
+        </a>
+    </p>
 </div>
-
----
 
 ## Overview
 
@@ -163,15 +162,7 @@ Panel F (Final Network): Emergent vascular architecture overlaid on net signal f
 The simulation successfully validates the central hypothesis: competing VEGF and inhibitor gradients produce structured, directional, branching vascular networks that arrest near the theoretical balance point. This emergent patterning arises solely from local tip-cell rules without any global coordinate system. All qualitative features observed in experimental angiogenesis (directional sprouting, density-dependent branching, vessel fusion, inhibitor-mediated arrest) are reproduced by the model.
 
 
-## References
 
-Fan, N., Bull, J.A. & Byrne, H.M. (2026). Exploring the relationship between vascular remodelling and tumour growth using agent-based modelling. PLoS Computational Biology, 22(5), e1012967.
-
-Giverso, C., Grappein, D. & Scialò, S. (2026). Modeling tumor growth with variable mass and angiogenesis-driven perfusion through a 3D-1D coupled framework. arXiv, 2603.29615.
-
-Wang, L.S. et al. (2025). A hybrid PDE-ABM model for angiogenesis and tumour microenvironment with application to resistance in cancer treatment. arXiv, 2505.22580.
-
-Wang, L.S. et al. (2025). Analysis and Mean-Field Limit of a Hybrid PDE-ABM Modeling Angiogenesis-Regulated Resistance Evolution. Mathematics, 13(17), 2898.
 
 Nasello, G. et al. (2025). An in silico study reveals how architectural and mechanical cues jointly regulate angiogenesis and bone regeneration in 3D printed scaffolds. Computers in Biology and Medicine, 185, 109825.
 
