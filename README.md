@@ -20,7 +20,7 @@ This project implements an agent-based computational model of angiogenesis — t
 <div align="center">
    <img width="1495" height="815" alt="image" src="https://github.com/user-attachments/assets/c5b3e41e-7494-43b0-be3a-4bff364b94ea" />
 
-    <p><em>Figure 1: Field Visualization tab showing VEGF, Inhibitor, Net Signal, Oxygen, and Effective VEGF fields</em></p>
+   Field Visualization tab showing VEGF, Inhibitor, Net Signal, Oxygen, and Effective VEGF fields</em></p>
 </div>
 
 ### Network Explorer - Interactive Vessel Visualization
@@ -28,7 +28,7 @@ This project implements an agent-based computational model of angiogenesis — t
 <div align="center">
 <img width="1483" height="829" alt="image" src="https://github.com/user-attachments/assets/38712b83-bfa7-4437-8982-5af54b5c8e71" />
 
-    <p><em>Figure 2: Network Explorer tab with generation-based color coding (Gen0 purple to Gen4+ green), anastomosis markers (cyan circles), and seed points (yellow squares)</em></p>
+  Network Explorer tab with generation-based color coding (Gen0 purple to Gen4+ green), anastomosis markers (cyan circles), and seed points (yellow squares)</em></p>
 </div>
 
 ### Time Lapse - Network Evolution Over Time
@@ -36,7 +36,7 @@ This project implements an agent-based computational model of angiogenesis — t
 <div align="center">
     <img width="1462" height="832" alt="image" src="https://github.com/user-attachments/assets/f4556244-9670-4665-8a19-a7d506b9a9a7" />
 
-    <p><em>Figure 3: Time Lapse tab showing network progression from step 30 to step 300</em></p>
+   Time Lapse tab showing network progression from step 30 to step 300</em></p>
 </div>
 
 ### Metrics Summary - Quantitative Analysis
@@ -44,7 +44,7 @@ This project implements an agent-based computational model of angiogenesis — t
 <div align="center">
     <img width="1432" height="758" alt="image" src="https://github.com/user-attachments/assets/c1ba1084-6ba0-4808-af6a-2d7d41e797c0" />
 
-    <p><em>Figure 4: Metrics Summary tab displaying network length, branch generations, anastomosis count, and growth trends</em></p>
+   Metrics Summary tab displaying network length, branch generations, anastomosis count, and growth trends</em></p>
 </div>
 
 
@@ -78,9 +78,7 @@ Distance-based anastomosis detection
 
 Oxygen diffusion from vessel segments with hypoxia feedback
 
-Boundary reflection handling at scaffold edges
 
-Network visualization with generation-based color mapping
 
 ## Domain Parameters
 
@@ -100,14 +98,7 @@ Network visualization with generation-based color mapping
 
 ## Results
 
-### Final Vascular Network
 
-<img width="590" height="606" alt="image" src="https://github.com/user-attachments/assets/83dfea25-e3aa-4c6d-9140-f423613ce00e" />
-
-
-*Figure 1: Emergent branching vascular network from agent-based simulation. Competing VEGF and inhibitor gradients guide tip-cell migration from bone edge toward tendon side. Network arrests near the theoretical balance point where net signal equals zero.*
-
-Color legend: Generation 0 (purple) primary sprouts, Generation 1 (pink) first-order branches, Generation 2 (red) second-order branches, Generation 3 (orange) third-order branches, Generation 4+ (green) higher-order branches. Cyan circles indicate anastomosis events. Yellow squares mark bone-edge seed points. Dashed line shows theoretical balance point at 8.2 mm.
 
 ### Time Evolution of Network Development
 
@@ -160,9 +151,6 @@ Panel F (Final Network): Emergent vascular architecture overlaid on net signal f
 The simulation successfully validates the central hypothesis: competing VEGF and inhibitor gradients produce structured, directional, branching vascular networks that arrest near the theoretical balance point. This emergent patterning arises solely from local tip-cell rules without any global coordinate system. All qualitative features observed in experimental angiogenesis (directional sprouting, density-dependent branching, vessel fusion, inhibitor-mediated arrest) are reproduced by the model.
 
 
-
-
-Nasello, G. et al. (2025). An in silico study reveals how architectural and mechanical cues jointly regulate angiogenesis and bone regeneration in 3D printed scaffolds. Computers in Biology and Medicine, 185, 109825.
 
 ## License
 
